@@ -1,0 +1,23 @@
+{
+  "name": "sse-stream",
+  "version": "0.0.0",
+  "description": "expose html5 server sent events (sse) as a writable stream",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/sse-stream.git"
+  },
+  "keywords": [
+    "sse",
+    "eventsource",
+    "stream",
+    "writable"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT"
+}
