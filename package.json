@@ -3,8 +3,13 @@
   "version": "0.0.0",
   "description": "expose html5 server sent events (sse) as a writable stream",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "through": "~2.2.7"
+  },
   "devDependencies": {},
+  "browser": {
+    "./index.js": "./browser.js"
+  },
   "scripts": {
     "test": "node test/index.js"
   },
