@@ -1,6 +1,6 @@
 {
   "name": "sse-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "expose html5 server sent events (sse) as a writable stream",
   "main": "index.js",
   "dependencies": {
