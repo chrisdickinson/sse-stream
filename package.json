@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "browser": {
-    "./index.js": "./browser.js"
+    "index.js": "browser.js"
   },
   "scripts": {
     "test": "node test/index.js"
