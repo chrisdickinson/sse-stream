@@ -4,6 +4,7 @@
   "description": "expose html5 server sent events (sse) as a writable stream",
   "main": "index.js",
   "dependencies": {
+    "access-control": "0.0.4",
     "through": "~2.2.7"
   },
   "devDependencies": {},
