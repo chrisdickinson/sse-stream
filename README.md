@@ -61,7 +61,8 @@ The argument may either be a string `path` to listen on (defaults to `/sse/`) or
 
 ```javascript
 { path: '/listen/on/this/path'
-, keepalive: 1000 }
+, keepalive: 1000
+, cors: {origins: '*', credentials: false} }
 ``` 
 
 `keepalive` determines the interval time in ms that keepalives will be sent to all connected clients.
